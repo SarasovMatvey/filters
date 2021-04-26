@@ -37,7 +37,7 @@ config.isDevelopment = !(process.argv[2] === "build") || !process.argv[2];
 const paths = {
   baseDir: "dist/",
   html: "./src/**/*.html",
-  styles: "./src/sass/**/*.scss",
+  styles: "./src/sass/**/*.sass",
   js: "./src/js/**/*.js",
   img: "./src/img/**/*",
   fonts: "./src/fonts/**/*.*",

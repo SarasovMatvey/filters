@@ -34,5 +34,9 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify-es": "^2.0.0",
     "webpack-stream": "^6.1.2"
+  },
+  "dependencies": {
+    "gulp-sass-glob": "^1.1.0",
+    "swiper": "^6.5.8"
   }
 }

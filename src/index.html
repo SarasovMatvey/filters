@@ -3,7 +3,472 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Фильтры</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <ul class="socials">
+            <li class="socials__item">
+              <a class="socials__link" href="#"
+                ><img src="img/icons/instagram.svg" class="socials__icon"
+              /></a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#"
+                ><img src="img/icons/telegram.svg" class="socials__icon"
+              /></a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#"
+                ><img src="img/icons/whatsapp.svg" class="socials__icon"
+              /></a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#"
+                ><img src="img/icons/facebook.svg" class="socials__icon"
+              /></a>
+            </li>
+          </ul>
+          <ul class="header__info-strings">
+            <li class="header__info-string">filter@filter.kg</li>
+            <li class="header__info-string">0990 90 41 41</li>
+            <li class="header__info-string">0707 41 41 41</li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__caption-section">
+            <div class="header__info-block">
+              <h2 class="header__info-block-title">Бесплатная доставка</h2>
+              <h3 class="header__info-block-subtitle">
+                Свыше 200 сом по Бишкеку
+              </h3>
+            </div>
+            <div class="logo">
+              <img src="img/logo.png" alt="logo" class="logo__img" />
+            </div>
+            <div class="header__info-block">
+              <h2 class="header__info-block-title">Служба подержки</h2>
+              <h3 class="header__info-block-subtitle">Пн-сб 8:00 - 18:00</h3>
+            </div>
+          </div>
+          <nav class="nav">
+            <div class="nav__inner">
+              <a href="#" class="nav__item nav__item_active">Фильтры </a>
+              <a href="#" class="nav__item">Запчасти</a>
+              <a href="#" class="nav__item">сервис</a>
+              <a href="#" class="nav__item">новости</a>
+              <a href="#" class="nav__item">узнать больше</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="hero">
+      <div class="container">
+        <div class="hero__slider slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="slider__img" src="img/family.jpg" alt="family" />
+                <h2 class="slider__title">Ты то, что ты пьешь</h2>
+              </div>
+              <div class="swiper-slide">
+                <img class="slider__img" src="img/family.jpg" alt="family" />
+              </div>
+              <div class="swiper-slide">
+                <img class="slider__img" src="img/family.jpg" alt="family" />
+              </div>
+            </div>
+          </div>
+          <div class="slider__control slider__prev"></div>
+          <div class="slider__control slider__next"></div>
+        </div>
+      </div>
+    </div>
+    <section class="production water-bg">
+      <div class="container">
+        <h2 class="section-title section-title_light">наша продукция</h2>
+        <div class="production__cards">
+          <div class="production__card preview-card">
+            <div class="production__card-img-wrap">
+              <img
+                src="img/filter.png"
+                alt="filter"
+                class="production__card-img"
+              />
+            </div>
+            <div class="preview-card__separator"></div>
+            <a class="preview-card__button" href="#">фильтры</a>
+          </div>
+          <div class="production__card preview-card">
+            <div class="production__card-img-wrap">
+              <img
+                src="img/filters.jpg"
+                alt="filter"
+                class="production__card-img"
+              />
+            </div>
+            <div class="preview-card__separator"></div>
+            <a class="preview-card__button" href="#">фильтры</a>
+          </div>
+          <div class="production__card preview-card">
+            <div class="production__card-img-wrap">
+              <img
+                src="img/man.jpg"
+                alt="filter"
+                class="production__card-img"
+              />
+            </div>
+            <div class="preview-card__separator"></div>
+            <a class="preview-card__button" href="#">фильтры</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="diller-form form form_horizontal">
+        <h2 class="form__title">Хотите стать нашим оптовым дилером?</h2>
+        <h3 class="form__subtitle">
+          Заполните форму – мы свяжемся с вами в ближайшее время!
+        </h3>
+        <form action="#" class="form__fields">
+          <input class="form__field field" type="text" placeholder="Ваше имя" />
+          <input
+            class="form__field field"
+            type="text"
+            placeholder="Ваш номер"
+          />
+          <button class="form__btn form-btn" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title">Почему именно фильтры</h2>
+        <ul class="features__list">
+          <li class="features__item">
+            <div class="features__item-icon-wrap">
+              <img
+                src="img/icons/features/wallet.svg"
+                alt="wallet"
+                class="features__item-icon"
+              />
+            </div>
+            <h3 class="features__item-title">Экономия</h3>
+          </li>
+          <li class="features__item">
+            <div class="features__item-icon-wrap">
+              <img
+                src="img/icons/features/plug.svg"
+                alt="wallet"
+                class="features__item-icon"
+              />
+            </div>
+            <h3 class="features__item-title">Экономия</h3>
+          </li>
+          <li class="features__item">
+            <div class="features__item-icon-wrap">
+              <img
+                src="img/icons/features/no.svg"
+                alt="wallet"
+                class="features__item-icon"
+              />
+            </div>
+            <h3 class="features__item-title">Экономия</h3>
+          </li>
+          <li class="features__item">
+            <div class="features__item-icon-wrap">
+              <img
+                src="img/icons/features/water-filter.svg"
+                alt="wallet"
+                class="features__item-icon"
+              />
+            </div>
+            <h3 class="features__item-title">Экономия</h3>
+          </li>
+          <li class="features__item">
+            <div class="features__item-icon-wrap">
+              <img
+                src="img/icons/features/physics.svg"
+                alt="wallet"
+                class="features__item-icon"
+              />
+            </div>
+            <h3 class="features__item-title">Экономия</h3>
+          </li>
+          <li class="features__item">
+            <div class="features__item-icon-wrap">
+              <img
+                src="img/icons/features/vitamins.svg"
+                alt="wallet"
+                class="features__item-icon"
+              />
+            </div>
+            <h3 class="features__item-title">Экономия</h3>
+          </li>
+          <li class="features__item">
+            <div class="features__item-icon-wrap">
+              <img
+                src="img/icons/features/no-plastic.svg"
+                alt="wallet"
+                class="features__item-icon"
+              />
+            </div>
+            <h3 class="features__item-title">Экономия</h3>
+          </li>
+          <li class="features__item">
+            <div class="features__item-icon-wrap">
+              <img
+                src="img/icons/features/snap.svg"
+                alt="wallet"
+                class="features__item-icon"
+              />
+            </div>
+            <h3 class="features__item-title">Экономия</h3>
+          </li>
+          <li class="features__item">
+            <div class="features__item-icon-wrap">
+              <img
+                src="img/icons/features/no-plastic-bottles.svg"
+                alt="wallet"
+                class="features__item-icon"
+              />
+            </div>
+            <h3 class="features__item-title">Экономия</h3>
+          </li>
+          <li class="features__item">
+            <div class="features__item-icon-wrap">
+              <img
+                src="img/icons/features/muscle.svg"
+                alt="wallet"
+                class="features__item-icon"
+              />
+            </div>
+            <h3 class="features__item-title">Экономия</h3>
+          </li>
+        </ul>
+        <div class="features__slider slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="slider__img" src="img/filter2.jpg" alt="filter" />
+              </div>
+              <div class="swiper-slide">
+                <img class="slider__img" src="img/filter2.jpg" alt="filter" />
+              </div>
+              <div class="swiper-slide">
+                <img class="slider__img" src="img/filter2.jpg" alt="filter" />
+              </div>
+            </div>
+          </div>
+          <div class="slider__control slider__prev"></div>
+          <div class="slider__control slider__next"></div>
+        </div>
+      </div>
+    </section>
+    <section class="why">
+      <div class="container">
+        <h2 class="section-title">ПОЧЕМУ AQUA FILTER</h2>
+        <ul class="why__items">
+          <li class="why__item">
+            <div class="why__icon-wrap">
+              <span></span>
+              <img
+                src="img/icons/features/wallet.svg"
+                alt=""
+                class="why__icon"
+              />
+            </div>
+            <h3 class="why__item-title">оПТИМАЛЬНАЯ ЦЕНА</h3>
+          </li>
+          <li class="why__item">
+            <div class="why__icon-wrap">
+              <span></span>
+              <img
+                src="img/icons/features/quality.svg"
+                alt=""
+                class="why__icon"
+              />
+            </div>
+            <h3 class="why__item-title">оПТИМАЛЬНАЯ ЦЕНА</h3>
+          </li>
+          <li class="why__item">
+            <div class="why__icon-wrap">
+              <span></span>
+              <img
+                src="img/icons/features/repair.svg"
+                alt=""
+                class="why__icon"
+              />
+            </div>
+            <h3 class="why__item-title">оПТИМАЛЬНАЯ ЦЕНА</h3>
+          </li>
+          <li class="why__item">
+            <div class="why__icon-wrap">
+              <span></span>
+              <img
+                src="img/icons/features/warehouse.svg"
+                alt=""
+                class="why__icon"
+              />
+            </div>
+            <h3 class="why__item-title">оПТИМАЛЬНАЯ ЦЕНА</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="reviews water-bg">
+      <div class="container">
+        <h2 class="section-title section-title_light">ПОЧЕМУ AQUA FILTER</h2>
+        <ul class="reviews__list">
+          <li class="reviews__item preview-card">
+            <div class="reviews__avatar avatar">
+              <img src="img/man.jpg" alt="man" class="avatar__img" />
+            </div>
+            <p class="reviews__text">
+              Аквафор предоставляет партнерам ряд серьезных преимуществ, которые
+              помогают участвовать в серьезных проектах и занять лидирующие
+              позиции в сегменте. Аквафор предоставляет партнерам ряд серьезных
+              преимуществ, которые помогают участвовать в серьезных проектах и
+              занять лидирующие позиции в сегменте.
+            </p>
+            <div class="preview-card__separator"></div>
+          </li>
+          <li class="reviews__item preview-card">
+            <div class="reviews__avatar avatar">
+              <img src="img/man.jpg" alt="man" class="avatar__img" />
+            </div>
+            <p class="reviews__text">
+              Аквафор предоставляет партнерам ряд серьезных преимуществ, которые
+              помогают участвовать в серьезных проектах и занять лидирующие
+              позиции в сегменте. Аквафор предоставляет партнерам ряд серьезных
+              преимуществ, которые помогают участвовать в серьезных проектах и
+              занять лидирующие позиции в сегменте.
+            </p>
+            <div class="preview-card__separator"></div>
+          </li>
+          <li class="reviews__item preview-card">
+            <div class="reviews__avatar avatar">
+              <img src="img/man.jpg" alt="man" class="avatar__img" />
+            </div>
+            <p class="reviews__text">
+              Аквафор предоставляет партнерам ряд серьезных преимуществ, которые
+              помогают участвовать в серьезных проектах и занять лидирующие
+              позиции в сегменте. Аквафор предоставляет партнерам ряд серьезных
+              преимуществ, которые помогают участвовать в серьезных проектах и
+              занять лидирующие позиции в сегменте.
+            </p>
+            <div class="preview-card__separator"></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="certificates">
+      <div class="container">
+        <h2 class="section-title">сертификаты</h2>
+        <ul class="certificates__list">
+          <li class="certificates__item">
+            <img
+              src="img/licence.png"
+              alt="licence"
+              class="certificates__img"
+            />
+          </li>
+          <li class="certificates__item">
+            <img
+              src="img/licence.png"
+              alt="licence"
+              class="certificates__img"
+            />
+          </li>
+          <li class="certificates__item">
+            <img
+              src="img/licence.png"
+              alt="licence"
+              class="certificates__img"
+            />
+          </li>
+          <li class="certificates__item">
+            <img
+              src="img/licence.png"
+              alt="licence"
+              class="certificates__img"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <h2 class="section-title">контакты</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <div class="contacts__icon-wrap">
+              <img src="img/icons/tel.svg" alt="" class="contacts__icon" />
+            </div>
+            <h3 class="contacts__info">0990 90 41 41 0707 41 41 41</h3>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__icon-wrap">
+              <img src="img/icons/address.svg" alt="" class="contacts__icon" />
+            </div>
+            <h3 class="contacts__info">ул.М.Ганди 334, р-н рынка «Баят»</h3>
+          </li>
+          <li class="contacts__item">
+            <div class="contacts__icon-wrap">
+              <img src="img/icons/email.svg" alt="" class="contacts__icon" />
+            </div>
+            <h3 class="contacts__info">filter@filter.kg</h3>
+          </li>
+        </ul>
+        <div class="contacts__bottom">
+          <div class="form">
+            <h2 class="form__title">
+              Остались вопросы или нужна консультация?
+            </h2>
+            <h3 class="form__subtitle">
+              Заполните форму – мы свяжемся с вами в ближайшее время!
+            </h3>
+            <form action="#" class="form__fields">
+              <input
+                class="form__field field"
+                type="text"
+                placeholder="Ваше имя"
+              />
+              <input
+                class="form__field field"
+                type="text"
+                placeholder="Ваш номер"
+              />
+              <button class="form__btn form-btn" type="submit">
+                Отправить
+              </button>
+            </form>
+          </div>
+          <div class="contacts__map">
+            <img src="img/map.png" alt="map" class="contacts__map-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer water-bg">
+      <div class="container">
+        <p class="footer__text">
+          2014-2021 © Biofilter.kg - система очистки воды в Бишкеке. Продвижение
+          сайта IDEA.KG
+        </p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>

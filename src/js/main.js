@@ -1,7 +1,3 @@
-let test = 5;
+//=require '../../node_modules/swiper/swiper-bundle.min.js'
 
-async function tst() {
-  console.log(123);
-} 
-
-tst();
+//=include './_includes/*.js'

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.2" viewBox="0 0 479 480" width="479"
+  height="480" id="svg11" sodipodi:docname="quality.svg" inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata id="metadata17">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs15" />
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10"
+    gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="776"
+    inkscape:window-height="480" id="namedview13" showgrid="false" inkscape:zoom="0.49166667" inkscape:cx="25.940678"
+    inkscape:cy="240" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="0"
+    inkscape:current-layer="svg11" />
+  <title id="title2">quality (1)-svg</title>
+  <style id="style4">
+    tspan {
+      white-space: pre
+    }
+  </style>
+  <path id="Layer" class="shp0"
+    d="M293.77 195.35L221.68 263.45L187.07 227.85C183.24 223.9 176.92 223.81 172.98 227.65C169.03 231.49 168.94 237.8 172.77 241.75L214.27 284.35C218.13 288.23 224.36 288.36 228.38 284.65L307.68 209.85C309.6 208.04 310.73 205.53 310.8 202.88C310.88 200.24 309.89 197.67 308.07 195.75C304.21 191.74 297.85 191.56 293.77 195.35L293.77 195.35Z"
+    style="fill:#ffffff" />
+  <path id="path7" fill-rule="evenodd" class="shp0"
+    d="M240.27 90.55C322.68 90.55 389.68 157.55 389.68 239.95C389.68 322.35 322.68 389.35 240.27 389.35C157.88 389.35 90.88 322.35 90.88 239.95C90.88 157.55 157.88 90.55 240.27 90.55ZM240.27 369.35C311.74 369.35 369.68 311.41 369.68 239.95C369.68 168.48 311.74 110.55 240.27 110.55C168.88 110.55 110.88 168.65 110.88 239.95C110.88 311.25 168.88 369.35 240.27 369.35Z"
+    style="fill:#ffffff" />
+  <path id="path9" fill-rule="evenodd" class="shp0"
+    d="M478.38 234.45C480.57 237.79 480.57 242.11 478.38 245.45L445.68 294.95L448.98 354.25C449.16 358.22 447.01 361.93 443.48 363.75L390.68 390.45L363.98 443.25C362.19 446.82 358.46 448.98 354.48 448.75L295.18 445.45L245.68 478.15C242.36 480.42 237.99 480.42 234.68 478.15L185.18 445.45L125.88 448.75C121.9 448.94 118.19 446.79 116.38 443.25L89.68 390.45L36.88 363.75C33.3 361.97 31.14 358.23 31.38 354.25L34.68 294.95L2.07 245.35C-0.12 242.01 -0.12 237.69 2.07 234.35L34.77 184.85L31.48 125.55C31.29 121.58 33.44 117.86 36.98 116.05L89.77 89.35L116.48 36.55C118.26 32.98 121.99 30.82 125.98 31.05L185.27 34.35L234.77 1.65C238.11 -0.55 242.44 -0.55 245.77 1.65L295.27 34.35L354.68 31.15C358.64 30.96 362.36 33.11 364.18 36.65L390.88 89.45L443.68 116.15C447.24 117.93 449.41 121.67 449.18 125.65L445.88 184.95L478.38 234.45ZM458.18 239.95L427.27 193.15C426.16 191.32 425.6 189.2 425.68 187.05L428.77 130.95L378.88 105.75C376.97 104.8 375.43 103.25 374.48 101.35L349.27 51.45L293.18 54.55C291.02 54.74 288.86 54.17 287.07 52.95L240.27 22.05L193.48 52.95C191.64 54.07 189.52 54.62 187.38 54.55L131.27 51.45L106.07 101.35C105.12 103.25 103.58 104.8 101.68 105.75L51.77 130.95L54.88 187.05C55.06 189.21 54.5 191.36 53.27 193.15L22.38 239.95L53.27 286.75C54.39 288.58 54.95 290.7 54.88 292.85L51.77 348.95L101.77 374.05C103.68 375 105.22 376.55 106.18 378.45L131.38 428.35L187.48 425.25L187.98 425.25C189.94 425.26 191.85 425.85 193.48 426.95L240.27 457.85L287.07 426.95C288.91 425.83 291.03 425.27 293.18 425.35L349.27 428.45L374.48 378.55C375.43 376.65 376.97 375.1 378.88 374.15L428.77 348.95L425.68 292.85C425.49 290.69 426.05 288.54 427.27 286.75L458.18 239.95Z"
+    style="fill:#ffffff" />
+</svg>

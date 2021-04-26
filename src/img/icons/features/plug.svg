@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.2" viewBox="0 0 512 512" width="512"
+  height="512" id="svg45" sodipodi:docname="plug.svg" inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata id="metadata51">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs49" />
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10"
+    gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="776"
+    inkscape:window-height="480" id="namedview47" showgrid="false" inkscape:zoom="0.4609375" inkscape:cx="256"
+    inkscape:cy="256" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="0"
+    inkscape:current-layer="svg45" />
+  <title id="title2">plug-svg</title>
+  <style id="style4">
+    tspan {
+      white-space: pre
+    }
+  </style>
+  <g id="g13" style="fill:#ffffff">
+    <g id="g11" style="fill:#ffffff">
+      <g id="g9" style="fill:#ffffff">
+        <path id="Layer" fill-rule="evenodd" class="shp0"
+          d="M401.07 119.47L401.07 184.32C401.07 226.99 384.85 268.8 355.84 300.37C329.39 329.39 315.73 366.08 315.73 405.33L315.73 426.67C315.73 450.56 296.96 469.33 273.07 469.33L264.53 469.33L264.53 503.47C264.53 508.59 261.12 512 256 512C250.88 512 247.47 508.59 247.47 503.47L247.47 469.33L238.94 469.33C215.04 469.33 196.27 450.56 196.27 426.67L196.27 404.48C196.27 366.08 181.76 328.53 156.16 299.52C127.15 267.95 110.93 226.99 110.93 184.32L110.93 119.47C110.93 114.35 114.35 110.93 119.47 110.93L145.07 110.93L145.07 25.6C145.07 11.09 156.16 0 170.67 0C185.17 0 196.27 11.09 196.27 25.6L196.27 110.93L315.73 110.93L315.73 25.6C315.73 11.09 326.83 0 341.33 0C355.84 0 366.93 11.09 366.93 25.6L366.93 110.93L392.53 110.93C397.65 110.93 401.07 114.35 401.07 119.47ZM332.8 110.93L349.87 110.93L349.87 25.6C349.87 20.48 346.45 17.07 341.33 17.07C336.21 17.07 332.8 20.48 332.8 25.6L332.8 110.93ZM162.13 25.6L162.13 110.93L179.2 110.93L179.2 25.6C179.2 20.48 175.79 17.07 170.67 17.07C165.55 17.07 162.13 21.33 162.13 25.6L162.13 25.6ZM384 128L128 128L128 184.32C128 222.72 142.51 260.27 168.11 289.28C197.12 320.85 213.33 362.67 213.33 405.33L213.33 426.67C213.33 441.17 224.43 452.27 238.93 452.27L273.07 452.27C287.57 452.27 298.67 441.17 298.67 426.67L298.67 404.48C298.67 361.81 314.88 320 343.89 288.43C370.35 259.41 384 222.72 384 183.47L384 128Z"
+          style="fill:#ffffff" />
+        <path id="path7" class="shp0"
+          d="M290.13 221.87L242.35 221.87L287.57 176.64C290.99 173.23 290.99 168.11 287.57 164.69C284.16 161.28 279.04 161.28 275.63 164.69L215.89 224.43C213.33 226.99 212.48 230.4 214.19 233.81C215.04 237.23 218.45 238.93 221.87 238.93L269.65 238.93L224.43 284.16C221.01 287.57 221.01 292.69 224.43 296.11C226.13 297.81 227.84 298.67 230.4 298.67C232.96 298.67 234.67 297.81 236.37 296.11L296.1 236.37C298.66 233.81 299.52 230.4 297.81 226.99C296.96 223.57 293.55 221.87 290.13 221.87Z"
+          style="fill:#ffffff" />
+      </g>
+    </g>
+  </g>
+  <g id="g15" style="fill:#ffffff" />
+  <g id="g17" style="fill:#ffffff" />
+  <g id="g19" style="fill:#ffffff" />
+  <g id="g21" style="fill:#ffffff" />
+  <g id="g23" style="fill:#ffffff" />
+  <g id="g25" style="fill:#ffffff" />
+  <g id="g27" style="fill:#ffffff" />
+  <g id="g29" style="fill:#ffffff" />
+  <g id="g31" style="fill:#ffffff" />
+  <g id="g33" style="fill:#ffffff" />
+  <g id="g35" style="fill:#ffffff" />
+  <g id="g37" style="fill:#ffffff" />
+  <g id="g39" style="fill:#ffffff" />
+  <g id="g41" style="fill:#ffffff" />
+  <g id="g43" style="fill:#ffffff" />
+</svg>

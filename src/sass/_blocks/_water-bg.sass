@@ -1,0 +1,20 @@
+.water-bg
+  position: relative
+  background: url('../img/drops.png') center, var(--c-main)
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 16px
+    transform: scaleY(-1)
+    background: url('../img/icons/dash3.png')
+  &:after
+    content: ''
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 100%
+    height: 16px
+    background: url('../img/icons/dash3.png')

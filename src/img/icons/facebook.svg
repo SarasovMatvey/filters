@@ -1,0 +1,40 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>facebook-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #1976d2 } 
+		.shp1 { fill: #fafafa } 
+	</style>
+	<path id="Layer" class="shp0" d="M448 0L64 0C28.7 0 0 28.7 0 64L0 448C0 483.3 28.7 512 64 512L448 512C483.3 512 512 483.3 512 448L512 64C512 28.7 483.3 0 448 0Z" />
+	<path id="Layer" class="shp1" d="M432 256L352 256L352 192C352 174.34 366.34 176 384 176L416 176L416 96L352 96L352 96C298.98 96 256 138.98 256 192L256 256L192 256L192 336L256 336L256 512L352 512L352 336L400 336L432 256Z" />
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+	<g id="Layer">
+	</g>
+</svg>

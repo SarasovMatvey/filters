@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.2" viewBox="0 0 64 64" width="64" height="64"
+  id="svg19" sodipodi:docname="vitamins.svg" inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata id="metadata25">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs23" />
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10"
+    gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="776"
+    inkscape:window-height="480" id="namedview21" showgrid="false" inkscape:zoom="3.6875" inkscape:cx="32"
+    inkscape:cy="32" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="0"
+    inkscape:current-layer="svg19" />
+  <title id="title2">vitamins-svg</title>
+  <style id="style4">
+    tspan {
+      white-space: pre
+    }
+  </style>
+  <g id="g17" style="fill:#ffffff">
+    <path id="Layer" class="shp0"
+      d="M51 52C50.45 52 50 51.55 50 51C50 50.45 50.45 50 51 50C51.55 50 52 50.45 52 51C52 51.55 51.55 52 51 52Z"
+      style="fill:#ffffff" />
+    <path id="path7" class="shp0"
+      d="M53 44C52.45 44 52 43.55 52 43C52 42.45 52.45 42 53 42C53.55 42 54 42.45 54 43C54 43.55 53.55 44 53 44Z"
+      style="fill:#ffffff" />
+    <path id="path9" class="shp0"
+      d="M43 54C42.45 54 42 53.55 42 53C42 52.45 42.45 52 43 52C43.55 52 44 52.45 44 53C44 53.55 43.55 54 43 54Z"
+      style="fill:#ffffff" />
+    <path id="path11" fill-rule="evenodd" class="shp0"
+      d="M48.81 24.61C50.59 28.1 52.08 31.55 52.97 34.62L55 32.59L58.36 35.94C61.35 38.94 63 42.92 63 47.15C63 55.89 55.89 63 47.15 63C44.71 63 42.35 62.43 40.22 61.39C37.61 62.45 34.85 63 32 63C24.48 63 17.65 59.27 13.57 53L10 53C5.04 53 1 48.96 1 44L1 39L6 39C7.46 39 8.83 39.36 10.04 39.97C10.45 33.3 14.67 24.87 18.75 18.17L17.59 17L14 17C9.04 17 5 12.96 5 8L5 3L10 3C14.96 3 19 7.04 19 12L19 15.59L19.83 16.42C19.98 16.18 20.14 15.94 20.28 15.71C22.36 12.47 30.26 1 32 1C33.63 1 41.94 11.79 47.83 22.75L49 21.59L49 18C49 13.04 53.04 9 58 9L63 9L63 14C63 18.96 58.96 23 54 23L50.41 23L48.81 24.61ZM60.31 17L56.41 17L52.41 21L54 21C56.78 21 59.19 19.36 60.31 17ZM58 11C56.93 11 55.91 11.25 55 11.69L55 15.59L58.29 12.29L59.71 13.71L58.41 15L60.92 15C60.97 14.67 61 14.34 61 14L61 11L58 11ZM51 19.59L53 17.59L53 13.11C51.77 14.37 51 16.1 51 18L51 19.59ZM51.34 36.24C48.21 23.52 34.97 6.27 32.01 3.28C28.8 6.6 12 28.33 12 41C12 41.11 12 41.21 12 41.32C13.84 42.96 15 45.35 15 48L15 51.53C18.68 57.46 25.01 61 32 61C34.06 61 36.07 60.69 38.01 60.08C37.28 59.57 36.59 59 35.94 58.36L32.59 55L51.34 36.24ZM15.59 15L10.29 9.71L11.71 8.29L13 9.59L13 5.69C12.09 5.25 11.07 5 10 5L7 5L7 8C7 11.86 10.14 15 14 15L15.59 15ZM13 48C13 46.1 12.23 44.37 11 43.11L11 47.59L13 49.59L13 48ZM3 44C3 44.34 3.03 44.67 3.08 45L5.59 45L4.29 43.71L5.71 42.29L9 45.59L9 41.69C8.09 41.25 7.07 41 6 41L3 41L3 44ZM3.68 47C4.81 49.36 7.21 51 10 51L11.59 51L7.59 47L3.68 47ZM55 35.41L53.59 36.83L55.53 38.77C57.77 41.01 59 43.99 59 47.15C59 53.69 53.69 59 47.15 59C43.99 59 41.01 57.77 38.77 55.53L36.83 53.59L35.41 55L37.36 56.94C39.97 59.56 43.45 61 47.15 61C54.79 61 61 54.79 61 47.15C61 43.45 59.56 39.97 56.94 37.36L55 35.41ZM46.56 43.85L56.98 47.57C56.98 47.43 57 47.29 57 47.15C57 44.52 55.98 42.05 54.12 40.18L52.17 38.24L46.56 43.85ZM49.59 56.68C53.06 55.79 55.79 53.06 56.68 49.59L45.65 45.65L49.59 56.68ZM38.24 52.17L40.19 54.12C42.05 55.98 44.52 57 47.15 57C47.29 57 47.43 56.98 47.57 56.98L43.85 46.56L38.24 52.17ZM15 7.11L15 11.59L17 13.59L17 12C17 10.1 16.23 8.37 15 7.11Z"
+      style="fill:#ffffff" />
+    <path id="path13" class="shp0"
+      d="M22 20.48L23.71 21.52C25.3 18.9 27.06 16.23 28.94 13.58L27.31 12.42C25.4 15.11 23.61 17.82 22 20.48Z"
+      style="fill:#ffffff" />
+    <path id="path15" class="shp0"
+      d="M18.6 26.54L20.38 27.45C21.02 26.19 21.75 24.86 22.54 23.5L20.8 22.5C20 23.89 19.26 25.25 18.6 26.54Z"
+      style="fill:#ffffff" />
+  </g>
+</svg>
