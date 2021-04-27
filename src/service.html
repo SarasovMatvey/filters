@@ -38,7 +38,9 @@
             </li>
           </ul>
           <ul class="header__info-strings">
-            <li class="header__info-string">filter@filter.kg</li>
+            <li class="header__info-email header__info-string">
+              filter@filter.kg
+            </li>
             <li class="header__info-string">0990 90 41 41</li>
             <li class="header__info-string">0707 41 41 41</li>
           </ul>
@@ -53,7 +55,7 @@
                 Свыше 200 сом по Бишкеку
               </h3>
             </div>
-            <div class="logo">
+            <div class="header__logo logo">
               <img src="img/logo.png" alt="logo" class="logo__img" />
             </div>
             <div class="header__info-block">
@@ -63,11 +65,11 @@
           </div>
           <nav class="nav">
             <div class="nav__inner">
-              <a href="#" class="nav__item nav__item_active">Фильтры </a>
-              <a href="#" class="nav__item">Запчасти</a>
-              <a href="#" class="nav__item">сервис</a>
+              <a href="index.html" class="nav__item nav__item_active">Фильтры </a>
+              <a href="catalog.html" class="nav__item">Запчасти</a>
+              <a href="service.html" class="nav__item">сервис</a>
               <a href="#" class="nav__item">новости</a>
-              <a href="#" class="nav__item">узнать больше</a>
+              <a href="articles.html" class="nav__item">узнать больше</a>
             </div>
           </nav>
         </div>
@@ -83,38 +85,60 @@
           Установка, ремонт, замена запастных частей фильтров для воды с выездом
           по городу Бишкек
         </p>
-        <ul class="service-info__steps">
-          <li class="service-info__step">
-            <div class="service-info__step-number">01</div>
-            <h4 class="service-info__step-title">
-              Диагностика и замена кортриджей
-            </h4>
-            <p class="service-info__step-text">
-              Диагностика фильтра для воды, замена сменных картриджей
-            </p>
-          </li>
-          <li class="service-info__step">
-            <div class="service-info__step-number">02</div>
-            <h4 class="service-info__step-title">Несложный ремонт фильтров</h4>
-            <p class="service-info__step-text">
-              Вызов мастера (замена фитингов, смесителя, замена колбы)
-            </p>
-          </li>
-          <li class="service-info__step">
-            <div class="service-info__step-number">03</div>
-            <h4 class="service-info__step-title">Сложный ремонт фильтров</h4>
-            <p class="service-info__step-text">
-              Восстановление и модернизация фильтров для воды на дому
-            </p>
-          </li>
-          <li class="service-info__step">
-            <div class="service-info__step-number">04</div>
-            <h4 class="service-info__step-title">Уствновка фильтров</h4>
-            <p class="service-info__step-text">
-              Монтаж и установка фильтров для воды под мойку
-            </p>
-          </li>
-        </ul>
+
+        <div class="service-info__steps swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="service-info__step">
+                <div class="service-info__step-number">01</div>
+                <h4 class="service-info__step-title">
+                  Диагностика и замена кортриджей
+                </h4>
+                <p class="service-info__step-text">
+                  Диагностика фильтра для воды, замена сменных картриджей
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service-info__step">
+                <div class="service-info__step-number">02</div>
+                <h4 class="service-info__step-title">
+                  Несложный ремонт фильтров
+                </h4>
+                <p class="service-info__step-text">
+                  Вызов мастера (замена фитингов, смесителя, замена колбы)
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service-info__step">
+                <div class="service-info__step-number">03</div>
+                <h4 class="service-info__step-title">
+                  Сложный ремонт фильтров
+                </h4>
+                <p class="service-info__step-text">
+                  Восстановление и модернизация фильтров для воды на дому
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service-info__step">
+                <div class="service-info__step-number">04</div>
+                <h4 class="service-info__step-title">Уствновка фильтров</h4>
+                <p class="service-info__step-text">
+                  Монтаж и установка фильтров для воды под мойку
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="control slider__control control_prev service-info__prev"
+          ></div>
+          <div
+            class="control slider__control control_next service-info__next"
+          ></div>
+        </div>
+
         <p class="service-info__text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
@@ -188,8 +212,8 @@
             </div>
           </div>
         </div>
-        <div class="slider__control slider__prev"></div>
-        <div class="slider__control slider__next"></div>
+        <div class="control slider__control control_prev slider__prev"></div>
+        <div class="control slider__control control_next slider__next"></div>
       </div>
     </div>
     <section class="features">
@@ -299,7 +323,6 @@
         </ul>
       </div>
     </section>
-
     <section class="contacts">
       <div class="container">
         <h2 class="section-title">контакты</h2>
@@ -308,7 +331,10 @@
             <div class="contacts__icon-wrap">
               <img src="img/icons/tel.svg" alt="" class="contacts__icon" />
             </div>
-            <h3 class="contacts__info">0990 90 41 41 0707 41 41 41</h3>
+            <h3 class="contacts__info">
+              0990 90 41 41 <br />
+              0707 41 41 41
+            </h3>
           </li>
           <li class="contacts__item">
             <div class="contacts__icon-wrap">
@@ -324,7 +350,7 @@
           </li>
         </ul>
         <div class="contacts__bottom">
-          <div class="form">
+          <div class="contacts__form form">
             <h2 class="form__title">
               Остались вопросы или нужна консультация?
             </h2>

@@ -1,9 +1,12 @@
 .production
   padding: 65px 0 85px
+  margin-bottom: 65px
   &__cards
-    display: grid
-    grid-template-columns: repeat(3, 1fr)
-    gap: 30px
+    position: relative
+    padding-bottom: 30px
+    +media('870px')
+      padding-left: 20px
+      padding-right: 20px
   &__card-img-wrap
     width: 200px
     height: 260px
@@ -11,4 +14,26 @@
     width: 100%
     height: 100%
     object-fit: contain
-  
+  &__card
+    width: 100%
+    +media('600px')
+      max-width: 355px
+  .swiper-slide
+    display: flex
+    justify-content: center
+  &__prev, &__next
+    position: absolute
+    top: 50%
+    z-index: 1
+    display: none
+    +media('870px')
+      display: block
+  &__prev
+    left: 0
+    +media('600px')
+      left: calc(50% - 200px) 
+  &__next
+    right: 0
+    +media('600px')
+      right: calc(50% - 200px) 
+

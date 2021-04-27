@@ -4,9 +4,18 @@
     display: grid
     grid-template-columns: repeat(4, 1fr)
     justify-items: center
+    column-gap: 40px
+    +media('990px')
+      grid-template-columns: repeat(2, 1fr)
   &__item
     text-align: center
+    display: flex
+    flex-direction: column
+    align-items: center
+    +media('990px')
+      margin-bottom: 40px
   &__icon-wrap
+    position: relative
     border-radius: 50%
     background: var(--c-accent)
     display: inline-flex
@@ -15,6 +24,37 @@
     width: 175px
     height: 175px
     margin-bottom: 75px
+    +media('990px')
+      margin-bottom: 45px
+    &::before
+      content: ''
+      background: #21b6ff
+      border-radius: 50%
+      position: absolute
+      width: 14px
+      height: 14px
+      left: 30px
+      bottom: 11px
+    &::after
+      content: ''
+      background: #21b6ff
+      border-radius: 50%
+      position: absolute
+      width: 23px
+      height: 23px
+      right: 30px
+      top: 3px
+    span
+      &::after
+        content: ''
+        background: #21b6ff
+        border-radius: 50%
+        position: absolute
+        width: 34px
+        height: 34px
+        bottom: 15px
+        right: 7px
+        z-index: -1
   &__icon
     height: 85px
   &__item-title

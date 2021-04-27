@@ -1,16 +1,39 @@
 .reviews
   padding: 80px 0 70px
+  .swiper-slide
+    display: flex
+    justify-content: center
   &__list
-    display: grid
-    grid-template-columns: repeat(3, 1fr)
-    column-gap: 30px
+    position: relative
+    padding: 50px 0
+    +media('870px')
+      padding-left: 20px
+      padding-right: 20px
   &__avatar
     margin-bottom: 22px
   &__item
     text-align: center
+    +media('600px')
+      max-width: 355px
   &__text
     font-family: var(--f-secondary)
     color: var(--c-main)
     font-size: 14px
     letter-spacing: 0px
     line-height: 22px
+  &__prev, &__next
+    position: absolute
+    top: 50%
+    z-index: 1
+    display: none
+    +media('870px')
+      display: block
+  &__prev
+    left: 0
+    +media('600px')
+      left: calc(50% - 200px) 
+  &__next
+    right: 0
+    +media('600px')
+      right: calc(50% - 200px) 
+

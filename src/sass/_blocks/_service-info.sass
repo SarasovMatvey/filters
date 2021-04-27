@@ -2,9 +2,10 @@
   text-align: center
   padding: 50px 0
   .container
+    text-align: center
+  .swiper-slide
     display: flex
-    flex-direction: column
-    align-items: center
+    justify-content: center
   &__title
     color: var(--c-main)
     text-transform: uppercase
@@ -16,6 +17,7 @@
     line-height: 22px
     color: var(--c-main)
   &__desc
+    display: inline-block
     margin-bottom: 40px
     max-width: 770px
     font-size: 23px
@@ -23,9 +25,10 @@
     color: #484848
   &__steps
     margin-bottom: 50px
-    display: grid
-    grid-template-columns: repeat(4, 1fr)
-    column-gap: 30px
+    position: relative
+    +media('870px')
+      padding-left: 20px
+      padding-right: 20px
   &__step
     padding: 27px 20px 40px
     background: #006cd8
@@ -35,6 +38,8 @@
     display: flex
     flex-direction: column
     align-items: center
+    +media('600px')
+      max-width: 355px
   &__step-number
     width: 98px
     height: 98px
@@ -57,3 +62,19 @@
     font-size: 14px
     text-align: left
     line-height: 22px
+  &__prev, &__next
+    position: absolute
+    top: 50%
+    z-index: 1
+    display: none
+    +media('870px')
+      display: block
+  &__prev
+    left: 0
+    +media('600px')
+      left: calc(50% - 200px) 
+  &__next
+    right: 0
+    +media('600px')
+      right: calc(50% - 200px) 
+

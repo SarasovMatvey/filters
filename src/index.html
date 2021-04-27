@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rob/articles.htmloto:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -38,7 +38,9 @@
             </li>
           </ul>
           <ul class="header__info-strings">
-            <li class="header__info-string">filter@filter.kg</li>
+            <li class="header__info-email header__info-string">
+              filter@filter.kg
+            </li>
             <li class="header__info-string">0990 90 41 41</li>
             <li class="header__info-string">0707 41 41 41</li>
           </ul>
@@ -53,7 +55,7 @@
                 Свыше 200 сом по Бишкеку
               </h3>
             </div>
-            <div class="logo">
+            <div class="header__logo logo">
               <img src="img/logo.png" alt="logo" class="logo__img" />
             </div>
             <div class="header__info-block">
@@ -63,11 +65,11 @@
           </div>
           <nav class="nav">
             <div class="nav__inner">
-              <a href="#" class="nav__item nav__item_active">Фильтры </a>
-              <a href="#" class="nav__item">Запчасти</a>
-              <a href="#" class="nav__item">сервис</a>
+              <a href="index.html" class="nav__item nav__item_active">Фильтры </a>
+              <a href="catalog.html" class="nav__item">Запчасти</a>
+              <a href="service.html" class="nav__item">сервис</a>
               <a href="#" class="nav__item">новости</a>
-              <a href="#" class="nav__item">узнать больше</a>
+              <a href="articles.html" class="nav__item">узнать больше</a>
             </div>
           </nav>
         </div>
@@ -90,48 +92,62 @@
               </div>
             </div>
           </div>
-          <div class="slider__control slider__prev"></div>
-          <div class="slider__control slider__next"></div>
+          <div class="control slider__control control_prev slider__prev"></div>
+          <div class="control slider__control control_next slider__next"></div>
         </div>
       </div>
     </div>
     <section class="production water-bg">
       <div class="container">
         <h2 class="section-title section-title_light">наша продукция</h2>
-        <div class="production__cards">
-          <div class="production__card preview-card">
-            <div class="production__card-img-wrap">
-              <img
-                src="img/filter.png"
-                alt="filter"
-                class="production__card-img"
-              />
+        <div class="production__cards swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="production__card preview-card">
+                <div class="production__card-img-wrap">
+                  <img
+                    src="img/filter.png"
+                    alt="filter"
+                    class="production__card-img"
+                  />
+                </div>
+                <div class="preview-card__separator"></div>
+                <a class="preview-card__button" href="#">фильтры</a>
+              </div>
             </div>
-            <div class="preview-card__separator"></div>
-            <a class="preview-card__button" href="#">фильтры</a>
-          </div>
-          <div class="production__card preview-card">
-            <div class="production__card-img-wrap">
-              <img
-                src="img/filters.jpg"
-                alt="filter"
-                class="production__card-img"
-              />
+            <div class="swiper-slide">
+              <div class="production__card preview-card">
+                <div class="production__card-img-wrap">
+                  <img
+                    src="img/filters.jpg"
+                    alt="filter"
+                    class="production__card-img"
+                  />
+                </div>
+                <div class="preview-card__separator"></div>
+                <a class="preview-card__button" href="#">фильтры</a>
+              </div>
             </div>
-            <div class="preview-card__separator"></div>
-            <a class="preview-card__button" href="#">фильтры</a>
-          </div>
-          <div class="production__card preview-card">
-            <div class="production__card-img-wrap">
-              <img
-                src="img/man.jpg"
-                alt="filter"
-                class="production__card-img"
-              />
+            <div class="swiper-slide">
+              <div class="production__card preview-card">
+                <div class="production__card-img-wrap">
+                  <img
+                    src="img/man.jpg"
+                    alt="filter"
+                    class="production__card-img"
+                  />
+                </div>
+                <div class="preview-card__separator"></div>
+                <a class="preview-card__button" href="#">фильтры</a>
+              </div>
             </div>
-            <div class="preview-card__separator"></div>
-            <a class="preview-card__button" href="#">фильтры</a>
           </div>
+          <div
+            class="control slider__control control_prev production__prev"
+          ></div>
+          <div
+            class="control slider__control control_next production__next"
+          ></div>
         </div>
       </div>
     </section>
@@ -274,8 +290,8 @@
             </div>
           </div>
         </div>
-        <div class="slider__control slider__prev"></div>
-        <div class="slider__control slider__next"></div>
+        <div class="control slider__control control_prev slider__prev"></div>
+        <div class="control slider__control control_next slider__next"></div>
       </div>
     </div>
     <section class="why">
@@ -332,82 +348,111 @@
     <section class="reviews water-bg">
       <div class="container">
         <h2 class="section-title section-title_light">ПОЧЕМУ AQUA FILTER</h2>
-        <ul class="reviews__list">
-          <li class="reviews__item preview-card">
-            <div class="reviews__avatar avatar">
-              <img src="img/man.jpg" alt="man" class="avatar__img" />
+        <div class="reviews__list swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="reviews__item preview-card">
+                <div class="reviews__avatar avatar">
+                  <img src="img/man.jpg" alt="man" class="avatar__img" />
+                </div>
+                <p class="reviews__text">
+                  Аквафор предоставляет партнерам ряд серьезных преимуществ,
+                  которые помогают участвовать в серьезных проектах и занять
+                  лидирующие позиции в сегменте. Аквафор предоставляет партнерам
+                  ряд серьезных преимуществ, которые помогают участвовать в
+                  серьезных проектах и занять лидирующие позиции в сегменте.
+                </p>
+                <div class="preview-card__separator"></div>
+              </div>
             </div>
-            <p class="reviews__text">
-              Аквафор предоставляет партнерам ряд серьезных преимуществ, которые
-              помогают участвовать в серьезных проектах и занять лидирующие
-              позиции в сегменте. Аквафор предоставляет партнерам ряд серьезных
-              преимуществ, которые помогают участвовать в серьезных проектах и
-              занять лидирующие позиции в сегменте.
-            </p>
-            <div class="preview-card__separator"></div>
-          </li>
-          <li class="reviews__item preview-card">
-            <div class="reviews__avatar avatar">
-              <img src="img/man.jpg" alt="man" class="avatar__img" />
+            <div class="swiper-slide">
+              <div class="reviews__item preview-card">
+                <div class="reviews__avatar avatar">
+                  <img src="img/man.jpg" alt="man" class="avatar__img" />
+                </div>
+                <p class="reviews__text">
+                  Аквафор предоставляет партнерам ряд серьезных преимуществ,
+                  которые помогают участвовать в серьезных проектах и занять
+                  лидирующие позиции в сегменте. Аквафор предоставляет партнерам
+                  ряд серьезных преимуществ, которые помогают участвовать в
+                  серьезных проектах и занять лидирующие позиции в сегменте.
+                </p>
+                <div class="preview-card__separator"></div>
+              </div>
             </div>
-            <p class="reviews__text">
-              Аквафор предоставляет партнерам ряд серьезных преимуществ, которые
-              помогают участвовать в серьезных проектах и занять лидирующие
-              позиции в сегменте. Аквафор предоставляет партнерам ряд серьезных
-              преимуществ, которые помогают участвовать в серьезных проектах и
-              занять лидирующие позиции в сегменте.
-            </p>
-            <div class="preview-card__separator"></div>
-          </li>
-          <li class="reviews__item preview-card">
-            <div class="reviews__avatar avatar">
-              <img src="img/man.jpg" alt="man" class="avatar__img" />
+            <div class="swiper-slide">
+              <div class="reviews__item preview-card">
+                <div class="reviews__avatar avatar">
+                  <img src="img/man.jpg" alt="man" class="avatar__img" />
+                </div>
+                <p class="reviews__text">
+                  Аквафор предоставляет партнерам ряд серьезных преимуществ,
+                  которые помогают участвовать в серьезных проектах и занять
+                  лидирующие позиции в сегменте. Аквафор предоставляет партнерам
+                  ряд серьезных преимуществ, которые помогают участвовать в
+                  серьезных проектах и занять лидирующие позиции в сегменте.
+                </p>
+                <div class="preview-card__separator"></div>
+              </div>
             </div>
-            <p class="reviews__text">
-              Аквафор предоставляет партнерам ряд серьезных преимуществ, которые
-              помогают участвовать в серьезных проектах и занять лидирующие
-              позиции в сегменте. Аквафор предоставляет партнерам ряд серьезных
-              преимуществ, которые помогают участвовать в серьезных проектах и
-              занять лидирующие позиции в сегменте.
-            </p>
-            <div class="preview-card__separator"></div>
-          </li>
-        </ul>
+          </div>
+          <div class="control slider__control control_prev reviews__prev"></div>
+          <div class="control slider__control control_next reviews__next"></div>
+        </div>
       </div>
     </section>
     <section class="certificates">
       <div class="container">
         <h2 class="section-title">сертификаты</h2>
-        <ul class="certificates__list">
-          <li class="certificates__item">
-            <img
-              src="img/licence.png"
-              alt="licence"
-              class="certificates__img"
-            />
-          </li>
-          <li class="certificates__item">
-            <img
-              src="img/licence.png"
-              alt="licence"
-              class="certificates__img"
-            />
-          </li>
-          <li class="certificates__item">
-            <img
-              src="img/licence.png"
-              alt="licence"
-              class="certificates__img"
-            />
-          </li>
-          <li class="certificates__item">
-            <img
-              src="img/licence.png"
-              alt="licence"
-              class="certificates__img"
-            />
-          </li>
-        </ul>
+
+        <!--  -->
+
+        <div class="certificates__list swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="certificates__item">
+                <img
+                  src="img/licence.png"
+                  alt="licence"
+                  class="certificates__img"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="certificates__item">
+                <img
+                  src="img/licence.png"
+                  alt="licence"
+                  class="certificates__img"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="certificates__item">
+                <img
+                  src="img/licence.png"
+                  alt="licence"
+                  class="certificates__img"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="certificates__item">
+                <img
+                  src="img/licence.png"
+                  alt="licence"
+                  class="certificates__img"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="control slider__control control_prev certificates__prev"
+          ></div>
+          <div
+            class="control slider__control control_next certificates__next"
+          ></div>
+        </div>
       </div>
     </section>
     <section class="contacts">
@@ -418,7 +463,10 @@
             <div class="contacts__icon-wrap">
               <img src="img/icons/tel.svg" alt="" class="contacts__icon" />
             </div>
-            <h3 class="contacts__info">0990 90 41 41 0707 41 41 41</h3>
+            <h3 class="contacts__info">
+              0990 90 41 41 <br />
+              0707 41 41 41
+            </h3>
           </li>
           <li class="contacts__item">
             <div class="contacts__icon-wrap">
@@ -434,7 +482,7 @@
           </li>
         </ul>
         <div class="contacts__bottom">
-          <div class="form">
+          <div class="contacts__form form">
             <h2 class="form__title">
               Остались вопросы или нужна консультация?
             </h2>

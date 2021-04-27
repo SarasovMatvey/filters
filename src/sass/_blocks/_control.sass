@@ -1,0 +1,29 @@
+.control
+  background-color: var(--c-accent)
+  width: 60px
+  height: 60px
+  border-radius: 50%
+  box-shadow: 0px 10px 13.5px rgba(0,66,161,0.11)
+  cursor: pointer
+  +media('1435px')
+    width: 47px
+    height: 47px
+    &:after
+      width: 15px
+      height: 15px
+  &:after 
+    content: ''
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    display: block
+    width: 24px
+    height: 24px
+    background: center / contain no-repeat
+  &_prev
+    &:after
+      background-image: url('../img/icons/arrow-left.svg')
+  &_next
+    &:after
+      background-image: url('../img/icons/arrow-right.svg')

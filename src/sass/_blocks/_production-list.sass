@@ -11,10 +11,15 @@
     color: var(--c-main)
     font-size: 25px
   &__list
+    width: 100%
     margin-bottom: 20px
     display: grid
     grid-template-columns: repeat(4, 1fr)
     gap: 30px
+    +media('1020px')
+      grid-template-columns: repeat(3, 1fr)
+    +media('780px')
+      grid-template-columns: repeat(2, 1fr)
   &__item
     font-family: var(--f-secondary)
     text-align: center

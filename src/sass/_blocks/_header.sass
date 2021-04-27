@@ -13,12 +13,23 @@
     font-size: 18px
     &:last-child
       margin-right: 0
+    +media('820px')
+      margin-right: 20px
   &__bottom
     color: var(--c-main)
   &__caption-section
     display: flex
     align-items: center
     justify-content: space-between
+    +media('780px')
+      padding: 20px 0 50px
+      display: grid
+      grid-template-columns: repeat(2, 1fr)
+  &__info-block
+    +media('780px')
+      margin-bottom: 18px
+      &:last-child
+        margin-bottom: 0
   &__info-block-title
     margin-bottom: 5px
     font-size: 20px
@@ -26,4 +37,13 @@
   &__info-block-subtitle
     font-size: 18px
     font-weight: 100
+  &__info-email
+    +media('640px')
+      display: none
+  &__logo
+    +media('780px')
+      justify-self: center
+      grid-column-s: 1 / 2
+      grid-row: 1 / 3
+
   

@@ -1,6 +1,8 @@
 (() => {
   const sliders = document.querySelectorAll(".slider");
 
+  if (!sliders) return
+
   for (const slider of sliders) {
     const swiper = new Swiper(slider.querySelector(".swiper-container"), {
       speed: 400,
@@ -10,7 +12,5 @@
         nextEl: slider.querySelector(".slider__next"),
       },
     });
-
-    console.log(slider.querySelector(".slider__prev"));
   }
 })();
