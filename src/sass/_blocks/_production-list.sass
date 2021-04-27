@@ -1,0 +1,39 @@
+.production-list
+  padding: 53px 0 30px
+  .container
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__title
+    text-align: center
+    margin-bottom: 30px
+    text-transform: uppercase
+    color: var(--c-main)
+    font-size: 25px
+  &__list
+    margin-bottom: 20px
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    gap: 30px
+  &__item
+    font-family: var(--f-secondary)
+    text-align: center
+    background: #efefef
+    border-radius: 10px
+    padding: 40px 10px 30px
+  &__item-img-wrap
+    margin-bottom: 35px
+    display: inline-block
+    max-width: 180px
+  &__item-img
+    max-width: 100% 
+  &__item-title
+    font-weight: 400
+    margin-bottom: 25px
+  &__item-price
+    color: #037cd9
+    font-size: 20px
+    margin-bottom: 24px
+  &__button
+    margin: 0 auto
+    max-width: 200px
