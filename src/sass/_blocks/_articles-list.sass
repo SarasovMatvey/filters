@@ -1,0 +1,30 @@
+.articles-list
+  padding: 95px 0
+  .container
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__item
+    margin-bottom: 50px
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    column-gap: 30px
+  &__item-title
+    font-size: 20px
+    margin-bottom: 20px
+    color: var(--c-main)
+  &__desc
+    line-height: 22px
+    color: #585858
+    font-weight: 400
+    font-size: 14px
+    font-family: var(--f-secondary)
+    margin-bottom: 50px
+  &__img-wrap
+    height: 300px
+  &__img
+    width: 100%
+    height: 100%
+    object-fit: cover
+  &__item-link
+    max-width: 170px
